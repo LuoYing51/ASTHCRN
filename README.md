@@ -10,11 +10,13 @@
 ### Environments
 Python 3.10
 ### Packages
+```
 numpy==2.3.4
 pandas==2.3.3
 scikit_learn==1.1.0
 torch==2.6.0+cu126
 torch_geometric==2.7.0
+```
 
 ## Dataset
 The original raw dataset from the State Grid Corporation of China used for this research cannot be made publicly available due to its confidential nature and proprietary restrictions. To ensure the reproducibility of our methodology, a simulated dataset has been generated and is provided at the aforementioned link. This simulated data shares the same format and structure as the original data, and is sufficient to demonstrate the functionality of the provided analysis codes and to allow for the verification of our data processing and analysis workflow.
