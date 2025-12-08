@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ASTHCRN
 ## Modeling dynamic higher-order spatio-temporal relationships: hypergraph-enhanced load forecasting for power grids
 Spatio-temporal forecasting accuracy is pivotal to decision-making for urban management, yet it is challenged by complex spatio-temporal dependencies. Existing methods primarily capture temporal or pairwise spatial dependencies and rely on static predefined structures, struggling to model higher-order and time-varying inter-regional relationships. Such limitations often result in mischaracterized dependencies, biased aggregation of information, and degraded accuracy under systemic events. To overcome these, we propose a general-purpose Hypergraph-Enhanced Adaptive Spatio-Temporal Convolutional Recurrent Network (ASTHCRN). ASTHCRN integrates hypergraph convolution to model higher-order spatial relationships among multiple entities and incorporates a data-driven adaptive mechanism that jointly learns node and hyperedge embeddings for dynamically constructing hypergraphs, eliminating the dependence on predefined topologies. By seamlessly integrating hypergraph convolution with Gated Recurrent Unit (GRU), ASTHCRN achieves intrinsic coupling and co-evolution of spatio-temporal features, rather than relying on the conventional stacked or sequential spatial–temporal modules. This unified design allows the model to capture mutually reinforcing spatio-temporal dynamics more effectively. Experiments on four heterogeneous power load datasets demonstrated that ASTHCRN significantly outperformed six state-of-the-art baselines across key metrics. While short-term load forecasting (STLF) serves as a representative use case, ASTHCRN is designed as a robust and general spatio-temporal forecasting framework. Its hypergraph-based spatio-temporal feature extraction architecture is generalizable to other domains such as traffic flow and air quality prediction, and holds potential as a core component for general-purpose spatio-temporal foundation models.
@@ -118,3 +119,6 @@ We introduce some major arguments of our main function here.
 * hyperedge_rate: hyperedge rate
 * AdaHCM_embed_dims: embedding dimensions for nodes and hyperedges in the Adaptive Hypergraph Construction Module (AdaHCM)
 * dropout: dropout rate
+=======
+# ASTHCRN
+>>>>>>> 0a8e357239d9abbc1940255ee687f0a46eb6480d
