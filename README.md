@@ -94,15 +94,15 @@ We introduce some major arguments of our main function here.
 
 **Training settings:**
 
-* train_rate: rate of train set
-* val_rate：rate of validation set
-* test_rate: rate pf test set
-* T_dim: time length of hidtorical steps
+* train_rate: data split rate of training set
+* val_rate: data split rate of validation set
+* test_rate: data split**** rate of test set
+* T_dim: time length of historical steps
 * output_T_dim: time length of future steps
 * num_nodes: the number of stations
 * batch_size: training or testing batch size
 * in_channels: the feature dimension of inputs
-* output_dim：the feature dimension of outputs
+* output_dim: the feature dimension of outputs
 * learning_rate: the learning rate at the beginning
 * epochs: training epochs
 * early_stop_patience: the patience of early stopping
@@ -111,8 +111,8 @@ We introduce some major arguments of our main function here.
 
 **Model hyperparameters:**
 
-* embed_size: the dimensions of convolution expansion 
-* d_inner: the dimension of the HGCRU
+* embed_size: dimension of feature embedding for convolution expansion 
+* d_inner: hidden dimension of the HGCRU
 * hyperedge_rate: hyperedge rate
-* HGCNADP_embed_dims: the dimensions of  embeddings for nodes and hyperedges
+* HGCNADP_embed_dims: embedding dimensions for nodes and hyperedges in HGCNADP module
 * dropout: dropout rate
