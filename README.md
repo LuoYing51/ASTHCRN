@@ -114,5 +114,5 @@ We introduce some major arguments of our main function here.
 * embed_size: dimension of feature embedding for convolution expansion 
 * d_inner: hidden dimension of the HGCRU
 * hyperedge_rate: hyperedge rate
-* HGCNADP_embed_dims: embedding dimensions for nodes and hyperedges in HGCNADP module
+* AdaHCM_embed_dims: embedding dimensions for nodes and hyperedges in AdaHCM module
 * dropout: dropout rate
